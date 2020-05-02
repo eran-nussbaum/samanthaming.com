@@ -116,9 +116,8 @@ const protein = {
 
 const replacer = function(key, value) {
   if(typeof value !== "string") {
-    return value
+    return value;
   }
-  return undefined;
 }
 
 
